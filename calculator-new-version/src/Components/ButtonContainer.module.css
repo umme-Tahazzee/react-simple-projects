@@ -1,0 +1,24 @@
+.buttonContianer{
+    background-color: rgb(32, 157, 198);
+    min-width: 300px;
+    width: 30%;
+    max-width: 300px;
+    min-height: 550px;
+    height: 60%;
+    max-height: 450px;
+    padding: 15px 30px 0 30px;
+}
+
+.button{
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.3rem;
+    border: none;
+    background-color: rgb(232, 238, 239);
+    margin: 8px 4px 0 4px;
+    cursor: pointer;
+}
+button:hover{
+      transform: scale(0.95);
+      cursor: pointer;
+}

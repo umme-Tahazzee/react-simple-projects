@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    
+}
+
+p{
+    font-size: 1.4vw;
+    text-align: center;
+    font-weight: 500;
+    color: blue;
+}
+
+/* Clock.css */
+
+.clock-container {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .clock {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Optional: Add animation for a smooth transition */
+  .clock-container:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  
